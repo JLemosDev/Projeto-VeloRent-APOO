@@ -1,0 +1,13 @@
+mvn compile exec:java -Dexec.mainClass="Main"
+
+mvn package
+java -jar target/POO-2026-01-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+
+
+mvn clean package -q
+java -jar target\POO-2026-01-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+
+admin
+admin123
