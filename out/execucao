@@ -1,0 +1,8 @@
+# Entrar na pasta do projeto
+cd locadora
+
+# Compilar todos os arquivos
+javac -d out -sourcepath src $(find src -name "*.java")
+
+# Executar
+java -cp out Main
