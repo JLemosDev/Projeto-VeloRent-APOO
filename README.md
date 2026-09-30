@@ -6,7 +6,31 @@ Aplicação de console para centralizar cadastros de clientes, frota, disponibil
 
 Projeto acadêmico desenvolvido em equipe no Bacharelado em Sistemas de Informação da UNIFACOL, para a disciplina de Análise e Projeto Orientado a Objetos (APOO), em 2026.
 
-[Executar localmente](#como-executar) · [Funcionalidades](#funcionalidades) · [Arquitetura](#arquitetura) · [Equipe](#equipe)
+[Demonstração](#demonstração) · [Executar localmente](#como-executar) · [Funcionalidades](#funcionalidades) · [Arquitetura](#arquitetura) · [Equipe](#equipe)
+
+## Demonstração
+
+Tour de **30 segundos** do fluxo de locação: cliente, veículo, disponibilidade, orçamento e registro interno de pagamento. Todas as informações usadas são fictícias.
+
+https://github.com/user-attachments/assets/367a5a2b-5786-44a7-910d-650261080dc9
+
+<details>
+<summary>Ver prévia animada e imagens dos principais fluxos</summary>
+
+![Tour do VeloRent: cliente, frota, disponibilidade, orçamento e pagamento](https://github.com/user-attachments/assets/d4e77314-53c7-4c61-b548-2f94bc093937)
+
+### Cadastro da frota
+![Veículo cadastrado e consulta do valor da diária](https://github.com/user-attachments/assets/a2419968-adbb-47f9-81fb-ccec3ad5b304)
+
+### Orçamento
+![Orçamento real de quatro dias a R$ 150 por diária, totalizando R$ 600](https://github.com/user-attachments/assets/d9fb69a3-d609-4554-941a-2feddf4fe705)
+
+### Registro de pagamento
+![Registro interno de pagamento vinculado ao orçamento](https://github.com/user-attachments/assets/3749c132-3977-4150-9606-e7f55f7b48b5)
+
+</details>
+
+As imagens apresentam trechos da saída real do console, com os menus repetidos omitidos para facilitar a leitura. O MP4 reúne essas capturas com legendas e sem áudio. A execução utilizou uma instância MySQL separada. [Detalhes da demonstração](docs/demos/README.md).
 
 ## Sobre o projeto
 
@@ -212,3 +236,4 @@ Este é um projeto acadêmico com interface de console. Os relacionamentos e o r
 ## Contexto acadêmico
 
 Projeto desenvolvido para fins educacionais — UNIFACOL, 2026.
+
